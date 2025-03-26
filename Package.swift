@@ -10,6 +10,6 @@ let package = Package(
     ],
     targets: [
         .target(name: "UnderLineTextField",
-                path: "UnderLineTextField/Classes")
+                path: "Source/UnderLineTextField")
     ]
 )
