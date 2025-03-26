@@ -135,7 +135,7 @@ public class UnderLineTextField: UITextField {
         }
     }
 
-    override public var clearButtonMode: UITextFieldViewMode {
+    override public var clearButtonMode: UITextField.ViewMode {
         set {
             rightViewMode = newValue
         }
