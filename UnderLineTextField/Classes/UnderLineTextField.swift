@@ -185,7 +185,7 @@ public class UnderLineTextField: UITextField {
             }
             CATransaction.begin()
             CATransaction.setAnimationDuration(0.4)
-            CATransaction.setAnimationTimingFunction(CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut'))
+            CATransaction.setAnimationTimingFunction(CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut))
             placeholderLabel.textColor = placeholderColor
             CATransaction.commit()
         }
