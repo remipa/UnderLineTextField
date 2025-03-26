@@ -459,7 +459,7 @@ extension UnderLineTextField {
     override open var tintColor: UIColor! {
         set {
             super.tintColor = newValue
-            clearButton.tintColor = newValue
+            // clearButton.tintColor = newValue
         }
         get {
             return super.tintColor
