@@ -336,7 +336,7 @@ public class UnderLineTextField: UITextField {
         placeholder = super.placeholder
         tintColor = super.tintColor
         super.placeholder = nil
-        clearButtonMode = .whileEditing//super.clearButtonMode
+        clearButtonMode = super.clearButtonMode
         placeholderLabel.text = placeholder
         addTarget(self, action: #selector(self.formTextFieldDidBeginEditing), for: .editingDidBegin)
         addTarget(self, action: #selector(self.formTextFieldDidEndEditing), for: .editingDidEnd)
