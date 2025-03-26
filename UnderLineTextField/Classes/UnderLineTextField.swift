@@ -242,7 +242,7 @@ public class UnderLineTextField: UITextField {
     /// layer which line will be drawn on it
     private lazy var lineLayer: CAShapeLayer = {
         let layer = CAShapeLayer(layer: self.layer)
-        layer.lineCap = kCALineCapRound
+        layer.lineCap = CAShapeLayerLineCap.round
         layer.strokeColor = lineColor.cgColor
         layer.lineWidth = lineWidth
         return layer
